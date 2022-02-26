@@ -1,0 +1,31 @@
+{
+  "name": "vmess or vles",
+  "description": "vmess or vles",
+  "keywords": [
+    "vmess or vles"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "要部署的协议vmess或vless,请填小写的vmess或vless",
+      "value": "vmess",
+      "required": true
+    },
+    "UUID": {
+      "description": "b3486e5c-34a7-4320-a43c-818b1c28f8a5",
+      "value": "",
+      "required": false
+    },
+        "vindex": {
+      "description": "伪装网站，填写一个真实网站地址",
+      "value": "",
+      "required": false
+    }
+   
+  },
+  "website": "https://github.com/BBzussswahk4lknhdustwoo/make-wxw",
+  "repository": "https://github.com/BBzussswahk4lknhdustwoo/make-wxw",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
